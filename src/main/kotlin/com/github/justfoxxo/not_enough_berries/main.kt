@@ -5,7 +5,7 @@ import net.fabricmc.api.ModInitializer
 object Main: ModInitializer {
     val mod_id = "neb"
     override fun onInitialize() {
-        for(i in 1..25) print("=")
+        for(i in 1..250) print("=")
         println("Initializing Not Enough Berries")
         println("InDev Version (Version created only for tests for developers not release)")
     }
