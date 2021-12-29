@@ -1,6 +1,7 @@
 # Not-Enough-Berries
 Makes sweet berries in minecraft useful!
 
+`Fabric 1.18.x`
 ## How to build it?
 - On Windows
   - `./gradlew build`
