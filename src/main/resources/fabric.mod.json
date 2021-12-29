@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "neb",
+  "version": "${version}",
+  "name": "Not Enough Berries",
+  "description": "Makes sweet berries in minecraft useful!",
+  "authors": [
+    "JustFoxxo",
+    "Moonnest"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JustFoxx/Not-Enough-Berries",
+    "issues": "https://github.com/JustFoxx/Not-Enough-Berries/issues",
+    "sources": "https://github.com/JustFoxx/Not-Enough-Berries"
+  },
+  "license": "GPL-3.0 License",
+  "icon": "assets/not_enough_berries/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.github.justfoxxo.not_enough_berries.Main"
+      }
+    ]
+  },
+  "mixins": [
+    "neb.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

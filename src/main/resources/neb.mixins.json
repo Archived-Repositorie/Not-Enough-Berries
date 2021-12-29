@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.github.justfoxxo.not_enough_berries.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}
