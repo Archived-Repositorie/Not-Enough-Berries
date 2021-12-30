@@ -14,13 +14,13 @@
     "sources": "https://github.com/JustFoxx/Not-Enough-Berries"
   },
   "license": "GPL-3.0 License",
-  "icon": "assets/not_enough_berries/icon.png",
+  "icon": "assets/neb/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "com.github.justfoxxo.not_enough_berries.Main"
+        "value": "com.github.justfoxxo.neb.Main"
       }
     ]
   },
