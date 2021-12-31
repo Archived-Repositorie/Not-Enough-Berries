@@ -12,7 +12,7 @@ class berryBlocks() {
     private val testBerry = TestBerry(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH))
 
     init {
-        Registry.register(Registry.BLOCK, Identifier(mod_id, "testberry"), testBerry)
+        Registry.register(Registry.BLOCK, Identifier(mod_id, "testberrybush"), testBerry)
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), testBerry)
     }
 }
