@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "neb:block/testberry_stage0"
+    "cross": "neb:block/testberrybush_stage1"
   }
 }

@@ -9,8 +9,8 @@ object Main: ModInitializer {
     override fun onInitialize() {
         println("Initializing Not Enough Berries")
         println("InDev Version (Version created only for tests for developers not release)")
-        berryBlocks()
+        berryBlocks().load()
         println("Berry Bushes have been loaded")
-        berryItems()
+        berryItems().load()
     }
 }

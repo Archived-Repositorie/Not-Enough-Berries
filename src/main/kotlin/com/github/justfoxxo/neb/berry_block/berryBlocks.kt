@@ -9,9 +9,9 @@ import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
 
 class berryBlocks() {
-    private val testBerry = TestBerry(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH))
+    val testBerry = TestBerry(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH))
 
-    init {
+    fun load() {
         Registry.register(Registry.BLOCK, Identifier(mod_id, "testberrybush"), testBerry)
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), testBerry)
     }
